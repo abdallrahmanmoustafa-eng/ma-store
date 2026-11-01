@@ -4,6 +4,17 @@ nav{color: white;}
            align-items: center;}
 hr{color: rgb(217 182 111 );}
 nav{text-align: center;}
+.home_link , .about_link , .contact_link {position: relative ;
+                                          top:50px ;
+                                          right: 50px;
+                                          font-size: 30px;
+                                          color: white;
+                                         background-color: #c82f95 ;}
+.about_link{right: -10px;}
+.contact_link{right: -70px;}
+
+
+
 
 
 
@@ -14,7 +25,6 @@ h2{color: rgb(217 182 111 ) ;}
       font-size:  120px;
       word-spacing: 30px;}
 .hint{text-align: center;}
-
 
 
 /*the style of cards*/
@@ -59,11 +69,18 @@ figure{display: block;
       color:#c82f95;}
 
    
-
-
+/*the style of contact*/
+.insta_link , .tele_lin , .face_link{position: relative;
+                                     font-size: 30px;
+                                     right: 50px;
+                                     color: white;
+                                      background-color: #c82f95;}
+.tele_lin{ right: -10px;}
+.face_link{right: -70px}
 
 
 /*for general body*/
 body{background-color:rgb(16 16 16) ;}
 p{color: rgb(214, 211, 204);}
+
 
