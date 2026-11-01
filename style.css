@@ -12,6 +12,11 @@ nav{text-align: center;}
                                          background-color: #c82f95 ;}
 .about_link{right: -10px;}
 .contact_link{right: -70px;}
+header{width: 100%;
+       position: fixed;
+       background-color: rgb(16,16,16);
+       top: 0%;}
+
 
 
 
@@ -22,9 +27,12 @@ nav{text-align: center;}
 h2{color: rgb(217 182 111 ) ;}
 .Home{text-align: center;}
 #logo{color: rgb(217, 182, 111);
+       position: relative;
+       top: 40px;
       font-size:  120px;
       word-spacing: 30px;}
 .hint{text-align: center;}
+
 
 
 /*the style of cards*/
@@ -56,7 +64,7 @@ h2{color: rgb(217 182 111 ) ;}
        display: flex;
        justify-content: center;
        gap: 25px;
-        flex-wrap: wrap}
+        flex-wrap: wrap;}
 figure{display: block;
     margin-left: auto;
     margin-right: auto;}
@@ -84,34 +92,5 @@ body{background-color:rgb(16 16 16) ;}
 p{color: rgb(214, 211, 204);}
 
 
-@media (max-width: 600px) 
-{
-    header {
-        flex-direction: column;
-        gap: 15px;
-        padding: 15px 10px;
-    }
 
-    header nav {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 15px;
-    }
-
-    .head_logo {
-        justify-content: center;
-    }
-
-    .head_logo img {
-        width: 40px;
-        height: 40px;
-    }
-
-    .logo {
-        font-size: 25px;
-    }
-
-}
-
-
+        
